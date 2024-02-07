@@ -67,11 +67,6 @@ public class tut1 {
 	 public void user_is_on_login_page() throws InterruptedException {
 		System.setProperty("webdriver.edge.driver", "C:\\BFSI_test\\automation\\selenium_automation_Browsers\\edgedriver_win64\\msedgedriver.exe\\");
 	  	driver = new EdgeDriver();
-//			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-//				ChromeOptions options = new ChromeOptions();
-//		options.addArguments("--remote-allow-origins=*");
-//		ChromeDriver driver = new ChromeDriver(options);
-
 		driver.get("https://www.saucedemo.com/v1/");
 		driver.manage().window().maximize();
 		System.out.println("Lauching Browser");		Thread.sleep(3000);	
@@ -83,26 +78,20 @@ public class tut1 {
 		
 		driver.findElement(By.id("user-name")).sendKeys("standard_user");
 		driver.findElement(By.id("password")).sendKeys("secret_sauce");
-//		By login = By.id("user-name");
-//		By Password = By.id("password");
-//		driver.findElement(login).sendKeys("standard_user");
-//		driver.findElement(Password).sendKeys("secret_sauce");
+
 	}
 	
 	 @When("click login button")
 	 public void click_login_button() {
 		
 		driver.findElement(By.id("login-button")).click();;
-		
-//		By button = By.id("login-button");
-//		driver.findElement(button).click();
+
 	}
 	@Then("Login to the application and navigated to Homepage")
 	public void login_to_the_application_and_navigated_to_homepage() {
 	    // Write code here that turns the phrase above into concrete actions
 	    System.err.println("login");;
 	}
-	
 	
 
 }

@@ -17,3 +17,12 @@ step: Pom.xml >>
 				selenium-java 4.16.1
 				selenium-edge-driver 4.16.1
 				
+				
+step7: Create a feature ans scenario sin feature file 
+
+step 8: crete step definition
+
+step9:Run feature file
+
+				
+				
