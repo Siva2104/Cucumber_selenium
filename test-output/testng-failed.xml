@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tutorials_Cucumber.tut1">
+      <class name="example.AKB_Login">
         <methods>
-          <include name="beforeMethod"/>
           <include name="browser"/>
+          <include name="Terminate_browser"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- Tutorials_Cucumber.tut1 -->
+      </class> <!-- example.AKB_Login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

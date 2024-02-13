@@ -1,4 +1,4 @@
-package Tutorials_Cucumber;
+package example;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -9,8 +9,9 @@ import org.openqa.selenium.edge.EdgeDriver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
 
-public class tut_3 {
+public class tut_3 extends AbstractTestNGCucumberTests {
 	protected WebDriver driver;
 	@Given("Browser open")
 	public void Browser_open() throws InterruptedException {

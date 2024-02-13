@@ -1,5 +1,4 @@
-package Tutorials_Cucumber;
-
+package example;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -58,7 +57,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 @SuppressWarnings("unused")
-public class tut1 {
+public class tut_1 {
 	
 	protected WebDriver driver  ;
 		
@@ -95,10 +94,3 @@ public class tut1 {
 	
 
 }
-	
-
-
-
-
-
-
