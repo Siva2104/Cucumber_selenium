@@ -22,7 +22,7 @@ public class tut_3 extends AbstractTestNGCucumberTests {
 	public void login_page() throws InterruptedException {
 		System.setProperty("webdriver.edge.driver", "C:\\BFSI_test\\automation\\selenium_automation_Browsers\\edgedriver_win64\\msedgedriver.exe\\");
 	  	driver = new EdgeDriver();
-		driver.get("https://10.11.144.178:8111");
+		driver.get("Application_Link");
 		driver.manage().window().maximize(); Thread.sleep(3000);	
 	}
 

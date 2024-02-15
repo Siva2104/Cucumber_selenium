@@ -37,7 +37,7 @@ public class AKB_Login {
 				"C:\\Users\\1925566\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 
 		driver = new ChromeDriver();
-		driver.get("https://10.11.144.178:8111");
+		driver.get("Application_Link");
 		driver.manage().window().maximize();
 		System.out.println("Lauching Browser");
 		System.out.println("Test case :TC0001");
